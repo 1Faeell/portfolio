@@ -705,6 +705,15 @@ section.contato {
   max-width: 1400px;
 }
 
+section.contato fieldset {
+  border: 1px solid var(--bg-sobre-mim-2);
+  border-radius: 10px;
+  padding: 2rem;
+}
+section.contato legend {
+  text-align: center;
+}
+
 /* Título da Seção de Contato */
 section.contato h2 {
   color: var(--title-color);
