@@ -503,14 +503,14 @@ section.conhecimento h2 {
 ul.lista-conhecimento {
   list-style: none;
   padding: 0;
-
   display: flex;
   flex-direction: row;
   gap: 1rem;
   position: relative;
-
   width: 100%; /* Se quiser, pode ajustar a largura */
   margin: auto;
+  justify-content: center;
+  align-items: center;
   /* padding: 2rem; */
   /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
   /* grid-template-columns: 1fr 1fr;
@@ -703,15 +703,6 @@ section.contato {
   margin: 0 auto;
   padding: 5rem 2rem;
   max-width: 1400px;
-}
-
-section.contato fieldset {
-  border: 1px solid var(--bg-sobre-mim-2);
-  border-radius: 10px;
-  padding: 2rem;
-}
-section.contato legend {
-  text-align: center;
 }
 
 /* Título da Seção de Contato */
